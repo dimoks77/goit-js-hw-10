@@ -19,14 +19,14 @@ const form = document.querySelector(".form");
     promise
       .then((delay) => {
         iziToast.success({
-          message: `✅ Fulfilled promise in ${delay}ms`,
-          position: 'bottomCenter',
+          message: `✅ Fulfilled promise in ${delay} ms`,
+          position: 'topRight',
         });
       })
       .catch((delay) => {
         iziToast.error({
-          message: `❌Rejected promise in ${delay}ms`,
-          position: 'bottomCenter',
+          message: `❌Rejected promise in ${delay} ms`,
+          position: 'topRight',
         });
       });
   }

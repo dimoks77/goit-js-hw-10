@@ -1,16 +1,22 @@
+ * {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+
 .form {
     width: 300px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 16px;
+
 }
 
 fieldset {
     display: flex;
     justify-content: center;
     stroke-width: 1px;
-     width: 375px;
+    width: 400px;
     height: 64px;
     flex-shrink: 0;
     padding: 0;
@@ -24,7 +30,7 @@ fieldset:hover, fieldset:active{
  
 label, legend{
     color: #2E2F42;
-    font-family: Montserrat;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -35,13 +41,13 @@ legend{
 }
 
 .inputMs{
-    width: 360px;
+    width: 382px;
     height: 40px;
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid #808080;
-    color: #2E2F42;
-    font-family: Montserrat;
+    color: #gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -54,24 +60,26 @@ legend{
 }
 
 .inputMs:active{
-    border: 1px solid #4E75FF;
+    border: 1px solid blue;
+    cursor: pointer;
+
 }
 
 .inputState:last-child{
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 button{
-    border-radius: 8px;
+    border-radius: 2px;
     background: #4E75FF;
     display: flex;
-    width: 380px;
+    width: 400px;
     padding: 8px 16px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     color: #FFF;
-    font-family: Montserrat;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -81,4 +89,5 @@ button{
 }
 button:hover{
     background: #6C8CFF;
+    cursor: pointer;
 }
